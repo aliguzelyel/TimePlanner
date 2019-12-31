@@ -2,14 +2,15 @@
 
 TimePlanner finds the available times for meet-ups in a group
 
+Input how many people will there be. Should be 2n people (2, 4, 6 ..)
 
+Write the first person's available times,  
+  ex. the person is available from 5 to 10; input 5, press enter, input 10. If you want to add another time do the same. When you are done with the first person, input -1.
+  
+Now write the second person's available times and then the third and so on...  
 
-Input how many people will there be. Should be 2n (2, 4, 6 ..)
+When you are done with every person, the program will tell you the best time for the meet-up with how many people can attend at that time. 
 
-Write the first person's available times, then the second person's...
+The best time is chosen as the time the most people can attend at.
 
-The program compares two consecutive people, and finds the available time for them. Then it goes to the next two people.
-
-For now, your output will be the available times found for each two people.
-
-Finding the ultimate available time for the group is not yet implemented, but planned.
+You can also see the other good times by looking at the array that tells you how many people can attend at each hour.
