@@ -15,4 +15,4 @@ The best time is chosen as the time the most people can attend at.
 
 You can also see the other good times by looking at the array that tells you how many people can attend at each hour.
 
-*The program works only with user input right now, reading from a file will be implemented soon.
+*The program works only with user input right now, reading from a file will be implemented later.
